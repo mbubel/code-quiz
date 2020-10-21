@@ -2,44 +2,51 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Code Quiz</title>
+    <title>Overwatch Quiz</title>
+
+    <!-- Added link to the jQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- style.css link -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="start">Begin the quiz!</div>
-    <div id="quiz" ></div>
-    <div id="counter"> Countdown timer goes here</div>
+    <!-- Question 1 -->
+    <h1>What was Tracer's occupation prior to joining Overwatch?</h1>
 
-<h1>Question 1</h1>
-<div id="Q1">This is a test question<br></div> 
-<button><div class="choice" id="A" onclick="checkAnswer"('A')>A</div></button><br>
-<button><div class="choice" id="B" onclick="checkAnswer"('B')>B</div></button><br>
-<button><div class="choice" id="C" onclick="checkAnswer"('C')>C</div></button><br>
-<button><div class="choice" id="D" onclick="checkAnswer"('D')>D</div></button><br>
+    <div class="first-question">
+      <!-- Answers to Question 1 -->
+      <button id="QuestionA">Pilot</button><br />
+      <button id="QuestionB">Doctor</button><br />
+      <button id="QuestionC">Engineer</button><br />
+      <button id="QuestionD">Therapist</button><br />
+    </div>
 
+    <h1 class="text-center" id="random-number"></h1>
 
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#QuestionA").on("click", function () {
+          // Correct response when clicked
+          var correct = "Correct!";
+          $("#random-number").text(correct);
+        });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="script.js"></script>
+        $("#QuestionB").on("click", function () {
+          // Incorrect response when clicked
+          var incorrect = "Incorrect!";
+          $("#random-number").text(incorrect);
+        });
+        $("#QuestionC").on("click", function () {
+          // Incorrect response when clicked
+          var incorrect = "Incorrect!";
+          $("#random-number").text(incorrect);
+        });
+        $("#QuestionD").on("click", function () {
+          // Incorrect response when clicked
+          var incorrect = "Incorrect!";
+          $("#random-number").text(incorrect);
+        });
+      });
+    </script>
   </body>
 </html>
