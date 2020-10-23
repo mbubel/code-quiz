@@ -1,3 +1,8 @@
 body {
   text-align: center;
 }
+P {
+  background-color: white;
+  display: inline-flex;
+  padding-left: 70%;
+}
