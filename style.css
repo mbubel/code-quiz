@@ -6,3 +6,13 @@ P {
   display: inline-flex;
   padding-left: 70%;
 }
+
+#Timer {
+  float: right;
+  font-size: large;
+}
+
+#quiz-answers {
+  float: left;
+  
+}

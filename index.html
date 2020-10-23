@@ -7,68 +7,83 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-  
-  
-
-    <!-- Question 1 -->
-    <h1>What was Tracer's occupation prior to joining Overwatch?</h1>
-    <h2 class="text-center" id="QuestionOneAnswer"></h2> 
-
-    <div class="first-question">
-      <!-- Answers to Question 1 -->
-      <button id="Answer1">Pilot</button><br />
-      <button id="Answer2">Doctor</button><br />
-      <button id="Answer3">Engineer</button><br />
-      <button id="Answer4">Therapist</button><br />
+    <!-- Timer -->
+    <div id="Timer"></div>
+    <div id="quiz-answers">
+      Question One:<div id="user1"></div><br>
+      Question Two:<div id="user2"></div><br>
+      Question Three:<div id="user3"></div><br>
+      Question Four:<div id="user4"></div><br>
+      Question Five:<div id="user5"></div><br>
     </div>
 
-    <h1>Test Q2</h1>
-    <h2 class="text-center" id="QuestionTwoAnswer"></h2> 
+    <div class="all-questions">
+      <!-- Question 1 -->
+      <div class="first-question" id="QuestionOne">
+        <h1>What was Tracer's occupation prior to joining Overwatch?</h1>
+        <h2 class="text-center" id="QuestionOneAnswer"></h2>
 
-    <div class="second-question">
-      <!-- Answers to Question 2 -->
-      <button id="Answer5">Pilot</button><br />
-      <button id="Answer6">Doctor</button><br />
-      <button id="Answer7">Engineer</button><br />
-      <button id="Answer8">Therapist</button><br />
+        <div class="first-question">
+          <!-- Answers to Question 1 -->
+          <button class="buttonQ1" id="Answer1">Pilot</button><br />
+          <button class="buttonQ1" id="Answer2">Doctor</button><br />
+          <button class="buttonQ1" id="Answer3">Engineer</button><br />
+          <button class="buttonQ1" id="Answer4">Therapist</button><br />
+        </div>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="second-question" id="QuestionTwo">
+        <h3>Who is Reinhardt's favorite musical artist/band?</h3>
+        <h2 class="text-center" id="QuestionTwoAnswer"></h2>
+
+        <!-- Answers to Question 2 -->
+        <button class="buttonQ2" id="Answer5">Taylor Swift</button><br />
+        <button class="buttonQ2" id="Answer6">Pink Floyd</button><br />
+        <button class="buttonQ2" id="Answer7">David Hasselhoff</button><br />
+        <button class="buttonQ2" id="Answer8">The Beetles</button><br />
+      </div>
+
+      <!-- Question 3 -->
+      <div class="third-question" id="QuestionThree">
+        <h4>How did Widowmaker's husband die?</h4>
+        <h2 class="text-center" id="QuestionThreeAnswer"></h2>
+
+        <!-- Answers to Question 3 -->
+        <button class="buttonQ3" id="Answer9">He is still alive</button><br />
+        <button class="buttonQ3" id="Answer10">Car accident</button><br />
+        <button class="buttonQ3" id="Answer11">Plane crash</button><br />
+        <button class="buttonQ3" id="Answer12">Widowmaker killed him</button
+        ><br />
+      </div>
+
+      <!-- Question 4 -->
+      <div class="fourth-question" id="QuestionFour">
+        <h1>How old is Mei?</h1>
+        <h2 class="text-center" id="QuestionFourAnswer"></h2>
+
+        <!-- Answers to Question 4 -->
+        <button class="buttonQ4" id="Answer13">27</button><br />
+        <button class="buttonQ4" id="Answer14">36</button><br />
+        <button class="buttonQ4" id="Answer15">40</button><br />
+        <button class="buttonQ4" id="Answer16">23</button><br />
+      </div>
+
+      <!-- Question 5 -->
+      <div class="fifth-question" id="QuestionFive">
+        <h5>What mythical creature does the Shimada Clan represent?</h5>
+        <h2 class="text-center" id="QuestionFiveAnswer"></h2>
+
+        <!-- Answers to Question 5 -->
+        <button class="buttonQ5" id="Answer17">Basilisk</button><br />
+        <button class="buttonQ5" id="Answer18">Dragon</button><br />
+        <button class="buttonQ5" id="Answer19">Phoenix</button><br />
+        <button class="buttonQ5" id="Answer20">Kraken</button><br />
+      </div>
     </div>
-
-    <h1>Test Q3</h1>
-    <h2 class="text-center" id="QuestionThreeAnswer"></h2> 
-
-    <div class="second-question">
-      <!-- Answers to Question 3 -->
-      <button id="Answer9">Pilot</button><br />
-      <button id="Answer10">Doctor</button><br />
-      <button id="Answer11">Engineer</button><br />
-      <button id="Answer12">Therapist</button><br />
-    </div>
-
-    <h1>Test Q4</h1>
-    <h2 class="text-center" id="QuestionFourAnswer"></h2> 
-
-    <div class="second-question">
-      <!-- Answers to Question 4 -->
-      <button id="Answer13">Pilot</button><br />
-      <button id="Answer14">Doctor</button><br />
-      <button id="Answer15">Engineer</button><br />
-      <button id="Answer16">Therapist</button><br />
-    </div>
-
-    <h1>Test Q5</h1>
-    <h2 class="text-center" id="QuestionFiveAnswer"></h2> 
-
-    <div class="second-question">
-      <!-- Answers to Question 5 -->
-      <button id="Answer17">Pilot</button><br />
-      <button id="Answer18">Doctor</button><br />
-      <button id="Answer19">Engineer</button><br />
-      <button id="Answer20">Therapist</button><br />
-    </div>
-
-    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <script src="script.js"></script>
   </body>
 </html>
