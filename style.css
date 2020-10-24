@@ -12,7 +12,24 @@ P {
   font-size: large;
 }
 
-#quiz-answers {
-  float: left;
-  
+#user-answers {
+  text-align: center;
+  padding-top: 15%;
+  font-size: x-large;
+}
+
+#user1 {
+  font-size: large;
+}
+#user2 {
+  font-size: large;
+}
+#user3 {
+  font-size: large;
+}
+#user4 {
+  font-size: large;
+}
+#user5 {
+  font-size: large;
 }
